@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form action="http://jorgesanchez.net/servicios/practica17.php" method="get">
+
+<table border="1">
+    <tr>
+        <th colspan="2"><h1>Registro de asistentes a las Jornadas de seguridad</h1></th>
+    </tr>
+    <tr>
+        <td rowspan="7"><img src="cartel.jpg" alt="" width="313" height="442"></td>
+        <th><label for="dni">DNI*</label></th>
+        <td>
+            <input type="text" id="dni" name="dni" required maxlength="9" pattern="[XYZ]?[0-9]{8}[A-Z]"></td>
+    </tr>
+    <tr>
+        <th><label for="nombre">Nombre*</label></th>
+        <td><input type="text" id="nombre" name="nombre" required></td>
+
+    </tr>
+    <tr>
+        <th><label for="apellidos">Apellidos*</label></th>
+        <td><input type="text" id="apellidos" name="apellidos" required></td>
+    </tr>
+    <tr>
+        <th><label for="fecha">Fecha de Nacimiento</label></th>
+        <td><input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa"></td>
+    </tr>
+    <tr>
+        <th><label for="comunidad">Comunidad Autónoma de Procedencia</label></th>
+        <td> <select name="comunidad" id="comunidad">
+                <option value="Andalucia">Andalucia</option>
+                <option value="Aragon">Aragon</option>
+                <option value="Principado de Asturias">Principado de Asturias</option>
+                <option value="Islas Baleares">Islas Baleares</option>
+                <option value="Pais Vasco">Pais Vasco</option>
+                <option value="Canarias">Canarias</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                <option value="Castilla y Leonn">Castilla y Leon</option>
+                <option value="Cataluña">Cataluña</option>
+                <option value="Extremadura">Extremadura</option>
+                <option value="Galicia">Galicia</option>
+                <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+                <option value="Region de Murcia">Region de Murcia</option>
+                <option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                <option value="Ceuta">Ceuta</option>
+                <option value="Melilla">Melilla</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset>
+                <legend>Institucion de Origen</legend>
+                <table border="1">
+                    <tr>
+                        <td><fieldset>
+                            <legend>Tipo de institucion</legend>
+                            <input type="radio" name="educativo" id="educativo">
+                            <label for="educativo">Centro educativo</label><br>
+                            <input type="radio" name="publica" id="publica">
+                            <label for="publica">Institucion publica</label>
+
+                            <input type="radio" name="Empresa privada">
+                            <input type="radio" name="Otros/Independiente">
+                            </fieldset>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td>Enviar datos</td>
+        <td><button>Enviar</button></td>
+
+    </tr>
+    <tr>
+        <td colspan="3">Centro Don Bosco,paseo Don Bosco 1: 34190, Villamuriel de cerrato Tlfno: 979 77 72 70</td>
+    </tr>
+</table>
+</form>
+
+
+</body>
+</html>

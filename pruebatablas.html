@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        thead{
+            background-color: aqua;
+        }
+        table{
+            width: 50%;
+        }
+        #primera{
+            background-color: chartreuse;
+        }
+        #datos{
+            background-color: magenta;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+<table border="1">
+   <tr>
+       <th>&nbsp;</th>
+       <th>Lunes</th>
+       <th>Martes</th>
+       <th>Miecoles</th>
+   </tr>
+    <tr>
+        <th>8:15</th>
+        <td>GBD</td>
+        <td>Redes</td>
+        <td>GBD</td>
+    </tr>
+    <tr>
+        <th>9:15</th>
+        <td>GBD</td>
+        <td>Redes</td>
+        <td>GBD</td>
+    </tr>
+    <tr>
+        <th>10:05</th>
+        <td>FOL</td>
+        <td>ISO</td>
+        <td>ISO</td>
+    </tr>
+</table>
+<br>
+<br>
+<table border="1">
+    <caption>Ventas en euros</caption>
+    <colgroup>
+        <col id="primera">
+        <col span="2" id="datos">
+
+    </colgroup>
+    <thead>
+        <tr>
+            <td>&nbsp;</td>
+            <th>España</th>
+            <th>Francia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Vino</th>
+            <td>80.000</td>
+            <td>95.000</td>
+        </tr>
+        <tr>
+            <th>Trigo</th>
+            <td>210.000</td>
+            <td>300.000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <td>290.000</td>
+            <td>395.000</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
