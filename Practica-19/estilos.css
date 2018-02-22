@@ -1,0 +1,47 @@
+h1 {
+    background-color: #34495e;
+    color: white;
+}
+table h1 {
+    background-color: #f1c40f;
+    color: #34495e;
+}
+
+
+th[rowspan] {
+    background-color: #34495e;
+    color: white;
+}
+
+tr:nth-of-type(even){
+    background-color: #bdc3c7;
+    color: #34495e;
+}
+
+td>p:first-of-type{
+    background-color: #f1c40f;
+
+}
+
+table p{
+    color: #34495e;
+    margin-left: 20px;
+}
+
+a{
+    color: #1abc9c;
+}
+th  a{
+    color: #f1c40f;
+}
+th[colspan]{
+    background-color: #34495e;
+    color: white;
+}
+
+
+
+tr > th > h1 {
+    background-color: #f1c40f;
+    color:#34495e;
+}
