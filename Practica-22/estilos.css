@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One|Ubuntu+Mono');
+
+body {
+    background-image: url("img/2859.jpg");
+    margin: 0px;
+    font-size: 14pt;
+
+}
+
+blockquote {
+    background-color: #d9d4bb;
+    padding: 20px 100px 50px 100px;
+    margin: 0px;
+}
+
+h1,h2 {
+    font-family: titan one;
+}
+
+h1 {
+    background-color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 0px;
+
+
+}
+
+h2 {
+    color: white;
+    background-color: rgba(0,0,0,.9);
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+
+}
+
+small {
+    font-size: 1rem;
+
+    color: slategray;
+
+}
+
+
+pre {
+    background-color: slategray;
+    font-family: Ubuntu Mono;
+    margin: auto;
+    max-width: 738px;
+    padding-top: 25px;
+
+
+
+}
+code {
+    color: white;
+    font-size: 1em;
+    margin-top: 50px;
+    background-color: slategray;
+}
+strong {
+    color: #2d77ff
+}
+p {
+    font-family: sans-serif;
+    color: black;
+    background-color: rgba(255,255,255,.8);
+    padding: 1em;
+    margin: auto;
+    text-align: justify;
+    max-width: 700px;
+}
+kbd {
+    background-image: url("img/key.png");
+}
+
+em {
+    color: #2d77ff;
+    font-weight: bold;
+    font-size: 20px;
+}
+p:first-of-type {
+    background-color: white;
+    margin-left: 0px;
+    max-width: 100%;
+}
