@@ -1,0 +1,47 @@
+body{
+    background-color: #747474;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+p {
+    text-align: center;
+    margin: -20px;
+}
+
+
+section {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+
+section>fieldset {
+    text-align: center;
+
+}
+
+::placeholder {
+    background-color: #cccccc;
+    color: white;
+
+}
+
+button {
+    background-color: #ff5454;
+    color: white;
+}
+button:hover {
+    background-color: #ff081c;
+}
+
+section:last-of-type {
+    border-radius: 0px 0px 15px 15px;
+}
+
+legend {
+    color: #cccccc
+}
