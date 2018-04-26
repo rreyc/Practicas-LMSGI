@@ -1,0 +1,112 @@
+header {
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #D0B911;
+    font-family: Verdana, serif;
+    margin: 0;
+}
+
+
+body > nav {
+    background-color: gray;
+    left: 0;
+    top: 60px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+
+}
+
+body > nav > a {
+    display: block;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid white;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color:gray;
+}
+
+main {
+    position: absolute;
+    left:210px;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+main p {
+    font-size: 2em;
+}
+
+h1{
+    color: #94830C;
+    font-family: Georgia, serif;
+    text-align: center;
+    border: 2px solid #94830C;
+    font-size: 2.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+ main nav button{
+    display: inline;
+}
+ button {
+     background-color: #94830C;
+     margin: 10px;
+     width: 306px;
+     height: 402px;
+     border-radius: 20px;
+     font-size: 2em;
+
+ }
+ button a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #b1:hover {
+     background-image: url("img/amundsen.jpg");
+     background-size: cover;
+     opacity: 0.5;
+
+ }
+#b2:hover {
+    background-image: url("img/nansen.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+#b3:hover {
+    background-image: url("img/scott.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+#b4:hover {
+    background-image: url("img/shackelton.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+section {
+    text-align: center;
+}
