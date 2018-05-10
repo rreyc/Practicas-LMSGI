@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+
+
+h1 {
+    font-family: Delius Swash Caps, serif;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    z-index: 120;
+
+}
+
+.portada {
+    position: absolute;
+    background-color: #e4e4e4;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+.portada:hover {
+    opacity: 0;
+    transition: 4s;
+}
+
+.capaportada {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("img/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-family: "Delius Swash Caps", serif;
+}
+#c1 {
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#c1:hover {
+    opacity: 0;
+    transition: 4s;
+}
+
+#c2 {
+    position: absolute;
+    background-image: url("img/cielo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 100%;
+    left: 0;
+    height: 50%;
+    width: 50%;
+}
+
+#c3 {
+    position: absolute;
+    background-image: url("img/cielo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 100%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+}
+#c4 {
+    position: absolute;
+    background-image: url("img/cielo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 150%;
+    left: 0;
+    height: 50%;
+    width: 50%;
+}
+#c5 {
+    position: absolute;
+    background-image: url("img/cielo4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 150%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+}
+header {
+    z-index: 1000;
+
+}
+h2 {
+    color: white;
+    top: 92%;
+    left: 0%;
+    width: 100%;
+    height: 60px;
+    background-color: #9897a3;
+    z-index: 100;
+    font-family: "Delius Swash Caps", serif;
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+}
+p {
+    text-align: right;
+    color: white;
+    z-index: 1500;
+    top: 120%;
+    right: 0;
+    position: absolute;
+    font-size: 1em;
+    font-family: "Delius Swash Caps", serif;
+    padding-right: 3%;
+}
+
+#c1:hover+p {
+    opacity: 0;
+    transition: 4s;
+}
